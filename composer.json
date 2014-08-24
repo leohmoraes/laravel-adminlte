@@ -1,0 +1,23 @@
+{
+    "name": "buonzz/laravel-adminlte",
+    "description": "",
+    "authors": [
+        {
+            "name": "Darwin Biler",
+            "email": "buonzz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Buonzz\\LaravelAdminlte\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
